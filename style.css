@@ -1,0 +1,159 @@
+*{
+	max-width: 1024px;
+	padding: 0;
+	margin: 0;
+}
+.container{
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+
+}
+body{
+	background: #FFEFBA;
+}
+section h1{
+	display: none;
+
+}
+.modal{
+	font-size: 3rem;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 10rem;
+
+}
+#hidden{
+	
+}
+
+.modal__overlay{
+	background-color: #000000c4;
+	position: absolute;
+	width: 100%;
+ 	height: 100%;
+}
+.modal__content{
+	background-color: #fffbc1;
+	padding: 100px 50px;
+	border-radius: 70px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	position: relative;
+	top: 0;
+	width: 60%;
+}
+#close{
+	margin-top: 40px;
+	font-size: 3rem;
+	padding: 20px 60px;
+	border-radius: 10px;
+	background-color: #ffdf15bf;
+}
+.center{
+	position: relative;
+	width: 100%;
+	height: 70%;
+
+}
+#quiznum{
+	margin: auto;
+	position: absolute;
+	top:1.5%;
+	left: 47%;
+
+	color: white;
+	background: rgba(0,0,0,0.6);
+	border-radius: 30px;
+	padding: 10px 20px;
+	font-size: 1rem;
+	text-align: center;
+}
+.name{
+	position: absolute;
+	font-size: 3rem;
+	z-index: -2;
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	border-radius: 25px;
+	padding: 20px 30px;
+	top: 85%;
+	left: 27%;
+}
+.bottom{
+	position: relative;
+	top: 0;
+	height: 30%;
+}
+section ul{
+	margin: 0 3%;
+	height:100%;
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	align-items: center;
+}
+section ul li{
+	width: 100%;
+	height: 100%;
+	display: inline;
+	text-align: center;;
+}
+.image__box {  
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -2;
+	width: 86%;
+	height: 93%;
+	margin:7% 7% 0 7%;
+	border-radius: 35px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border: 2px;
+	border-style: solid;
+	border-color: #ee9ca7;
+
+}
+.end{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	font-size: 5rem;
+	display: none;
+
+}
+.bottom__button{
+	font-size: 5rem;
+	color: white;
+	margin-top: 10%;
+	padding: auto;
+	width: 80%;
+	height: 70%;
+	border-radius: 35px;
+	background: #ee9ca7;  
+	box-shadow: 2px 2px 1px 1px gray;
+	
+
+}
+#n1{
+	display: none;
+}
+#n2{
+	display: none;
+}
+#n3{
+	display: none;
+}
+#n4{
+	display: none;
+}
